@@ -664,7 +664,7 @@ UTTON_10 = InlineKeyboardMarkup(
 
 TEXT_PART_1 = """
 Here is the help for the **Formatting** 
-DeviLAngel supports a large number of formatting options 
+𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 supports a large number of formatting options 
 to make your messages more expressive. Take a look 
 by clicking the buttons below!
 """
@@ -916,7 +916,7 @@ async def popat(_, CallbackQuery):
 text = """
 @LUNAXDNBOT is one of the fastest and most feature filled group manager.
 
-Rose ✨ is developed and actively maintained by @alpha_romeo_06!
+𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 ✨ is developed and actively maintained by @alpha_romeo_06!
 
 Devil has been online since 2021/8/10 and have many [groups and users.](https://t.me/Official_Devil_Network)
 
