@@ -141,10 +141,10 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/DevilAngelSupport"
+                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/Official_Devil_Support"
             ),
             InlineKeyboardButton(
-                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DeviLAngeLupdates"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Official_Devil_Network"
             ),
         ],
         [
@@ -157,7 +157,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ! ɪ'ᴍ [ᴅᴇᴠɪʟ ᴀɴɢᴇʟ ✨](https://telegra.ph/file/fce9d196e2ba4d6c2de3a.jpg)
+ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ! ɪ'ᴍ [𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉](https://telegra.ph/file/6630169ceca2b9811bb81.jpg)
 ᴀɴ  ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ ʜᴇʟᴘ 
 ʏᴏᴜ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘs & sᴜɪᴛ ꜰᴏʀ ᴀʟʟ ʏᴏᴜʀ ɴᴇᴇᴅs,ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💕.
 """
@@ -179,7 +179,7 @@ basichelp_string = """
 ✘ Base commands are the basic tools of Devil Angel Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -189,7 +189,7 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
 
 Click buttons to get help ?
 """
@@ -200,7 +200,7 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -234,7 +234,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @DevilXAngelBot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @LUNAXDNBOT here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -347,10 +347,10 @@ keyboar = InlineKeyboardMarkup(
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DeviLAngeLupdates"
+                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Official_Devil_Network"
                         ),
                         InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/DevilAngelSupport"
+                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/Official_Devil_Support"
                         ),
                     ],
                     [
@@ -413,8 +413,8 @@ async def help_parser(name, keyboard=None):
 ✪ **Welcome To Help Menu** ✪
 
 I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button[🎀](https://telegra.ph/file/530f5ba6ee58228d151d7.jpg).
-Also you can ask anything in\n Support Group: @DevilAngelSupport.
+You can choose an option below, by clicking a button[🎀](https://telegra.ph/file/22f288349619a548cf9c6.jpg).
+Also you can ask anything in\n Support Group: @Official_Devil_Support.
 """.format(
             first_name=name,
             bot_name=BOT_NAME,
@@ -675,7 +675,7 @@ BTTON_1 = InlineKeyboardMarkup(
         InlineKeyboardButton('Formatting ', callback_data='for_commands')
         ],
         [
-        InlineKeyboardButton('Bug Report', url="https://t.me/DevilAngelSupport")
+        InlineKeyboardButton('Bug Report', url="https://t.me/Official_Devil_Support")
         ],
         [InlineKeyboardButton('🔙 Back', callback_data='bot_commands')
         ]]
@@ -818,12 +818,12 @@ async def commands_callbacc(_, CallbackQuery):
     modules_count = len(ALL_MODULES)
 
     TEXT_PART = f"""
-@DeviLxAngeLBot ** is one of the fastest and most feature filled group manager**.   
+@LUNAXDNBOT ** is one of the fastest and most feature filled group manager**.   
  
  - **Latest Update Time** : `2022 {dater}:{timer}`
  - **Modules Loaded **:  `{modules_count}`
  - **Globally banned users.** :  `{gbans}`
-@szrosebot **Mongo database stats**
+@LUNAXDNBOT **Mongo database stats**
  - ** Users ** : `{served_users}`
  - ** chats.** : `{served_chats}`
 
@@ -843,8 +843,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PART_1 = """
-**Welcome to the DevilAngel Configuration**
-The first thing to do is to add Devil Bot ✨ to your group! 
+**Welcome to the 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Configuration**
+The first thing to do is to add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -857,7 +857,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @szrosebot as Admin
+▫️ Add @LUNAXDNBOT as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -866,14 +866,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @DevilAngelSupport.
+so don't hesitate to come in @Official_Devil_Support.
 We would love to help you.
 """
 
 
 BUTTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Devil to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 to Chat ! 🎉', url='http://t.me/LUNAXDNBOT?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_1")
         ]]
@@ -914,11 +914,11 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@DevilXAngelBot is one of the fastest and most feature filled group manager.
+@LUNAXDNBOT is one of the fastest and most feature filled group manager.
 
-Rose ✨ is developed and actively maintained by @Attitude_king_vj!
+Rose ✨ is developed and actively maintained by @alpha_romeo_06!
 
-Devil has been online since 2021/8/10 and have many [groups and users.](https://t.me/DeviLAngeLupdates)
+Devil has been online since 2021/8/10 and have many [groups and users.](https://t.me/Official_Devil_Network)
 
 **Why Devil:**
 - **Simple**: Easy usage and compaitble with many bot commands.
@@ -960,8 +960,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PAT_1 = """
-**Welcome to the Rose Configuration**
-The first thing to do is to add Rose Bot ✨ to your group! 
+**Welcome to the 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Configuration**
+The first thing to do is to add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -974,7 +974,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @DeviLxAngeLBot as Admin
+▫️ Add @LUNAXDNBOT as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -983,14 +983,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @DevilAngelSupport.
+so don't hesitate to come in @Official_Devil_Support.
 We would love to help you.
 """
 
 
 BUTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Devil to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 to Chat ! 🎉', url='http://t.me/LUNAXDNBOT?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_100")
         ]]
@@ -1076,7 +1076,7 @@ LOGGER.info("""
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 └───────────────────────────────────────────────┘ """)
 LOGGER.info(f"Version: stable")
-LOGGER.info(f"Owner: @Attitude_king_vj")
+LOGGER.info(f"Owner: @alpha_romeo_06")
 
 if __name__ == "__main__":
     uvloop.install()
