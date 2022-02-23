@@ -42,7 +42,7 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Dev](t.me/Attitude_king_vj) | [Group](https://t.me/DevilAngelSupport)
+    text = f"""[Dev](t.me/alpha_romeo_06) | [Group](https://t.me/Official_Devil_Support)
 ```----------------
 | Contributors |
 ----------------```
