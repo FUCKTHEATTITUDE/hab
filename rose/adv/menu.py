@@ -8,7 +8,7 @@ supunma = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
 
 Click buttons to get help ?
 """
