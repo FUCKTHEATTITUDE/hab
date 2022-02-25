@@ -16,7 +16,7 @@ zero lag time with high quality
 × /delgroupplaylist- Delete any saved music in your group's playlist [Requires Admin Rights.]
 
 This is most advance music player in telegram base on private Socure 
-music player repo Devil can play music or video in your group video chat without lag...!
+music player repo luna x dN can play music or video in your group video chat without lag...!
 
 
  """
