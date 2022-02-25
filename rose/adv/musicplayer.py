@@ -69,7 +69,7 @@ async def commands_callbacc(_, CallbackQuery):
 supunma = """
 - /lyrics `[Music Name]` : Searches Lyrics for the particular Music on web.
 - /sudolist : Check Sudo Users of Rose Music Bot
-- /song or /video  `[Track Name]` or `[YT Link]` : Download any track from youtube in mp3 or mp4 formats via Rose.
+- /song or /video  `[Track Name]` or `[YT Link]` : Download any track from youtube in mp3 or mp4 formats via 𝙇𝙐𝙉𝘼 ✘ 𝘿𝙉.
 - /queue: Check Queue List of Music.
 """
 @app.on_callback_query(filters.regex("_ecd"))
@@ -85,7 +85,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 supunmas = """
 **Note:**
-Devil Angel Music Bot works on a single merged 
+𝙇𝙐𝙉𝘼 ✘ 𝘿𝙉 Music Bot works on a single merged 
 commands for Music and Video
 
 **Youtube,Telegram Files & query**:
@@ -119,18 +119,18 @@ We was added Lag free Music 🎶
 
 👮‍♀️ **OFFICIAL Assistants**:-
 
-• Assistant :- @DevilAngelAssistant
+• Assistant :- IT JOIN RANDOM
 
 
 
 
 **Credits** - 
 
-˚₊· ͟͟͞͞➳❥🇦𝖙𝖙𝖎𝖙𝖚𝖉𝖊 🇰𝖎𝖓𝖌࿐
-- @Attitude_king_vj
+˚₊𝗔𝗟𝗔𝗡 𝗪𝗔𝗟𝗞𝗘𝗥
+- @alpha_romeo_06
 
 👨‍💻 - Please Don't Spam in Assistant Pm
-we remove assistant monthly in all groups.
+guys automatically assistant id removed from chats after one month later.
 """
 @app.on_callback_query(filters.regex("_aci"))
 async def commands_callbacc(_, CallbackQuery):
@@ -189,12 +189,12 @@ upun = """
 - Youtube Downloader Bar.
 - Auth Users Function .
 - Download Audios from Youtube.
-- disadvantage:-
-- Thumbnail not support.
+- loop event and channel play added:by devil support
+- thumbnail selected at random
 
-**work is done by** : @Attitude_King_vj
-
-Click on the buttons for more information.| [credits](https://t.me/tgcalls_Music_update)
+**work is done by** : @alpha_romeo_06
+**thanks to yukki**
+Click on the buttons for more information.| [credits](https://t.me/Official_Devil_Network)
 """
 @app.on_callback_query(filters.regex("_vc"))
 async def commands_callbacc(_, CallbackQuery):
