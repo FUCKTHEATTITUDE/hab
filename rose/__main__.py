@@ -121,8 +121,8 @@ async def start_bot():
     except Exception:
         pass
     try:
-            await app2.join_chat("szteambots")
-            await app2.join_chat("slbotzone")
+            await app2.join_chat("Official_Devil_Support")
+            await app2.join_chat("Official_Devil_Network")
     except UserAlreadyParticipant:
         pass
     await idle()
