@@ -86,22 +86,41 @@ async def commands_callbacc(_, CallbackQuery):
 supunmas = """
 **Note:**
 𝙃𝘼𝘽𝙄𝘽𝙄 Music Bot works on a single merged 
-commands for Music and Video
+✅Admin Commands:
 
-**Youtube,Telegram Files & query**:
+c stands for channel play.
 
-- /play `[Music Name](𝙃𝘼𝘽𝙄𝘽𝙄 will search on Youtube)
-- /play `[Youtube Track link or Playlist]`
-- /play `[Video, Live, M3U8 Links]`
-- /play `[Reply to a Audio or Video File]` : Stream Video or Music on Voice Chat by selecting inline Buttons you get
+/pause or /cpause - Pause the playing music.
+/resume or /cresume- Resume the paused music.
+/mute or /cmute- Mute the playing music.
+/unmute or /cunmute- Unmute the muted music.
+/skip or /cskip- Skip the current playing music.
+/stop or /cstop- Stop the playing music.
+/shuffle or /cshuffle- Randomly shuffles the queued playlist.
 
-📖 **If you like you can use /vplay commands as this method.**
+✅Specific Skip:
+/skip or /cskip [Number(example: 3)] 
+    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+
+✅Loop Play:
+/loop or /cloop [enable/disable] or [Numbers between 1-10] 
+    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+
+✅Auth Users:
+Auth Users can use admin commands without admin rights in your chat.
+
+/auth [Username] - Add a user to AUTH LIST of the group.
+/unauth [Username] - Remove a user from AUTH LIST of the group.
+/authusers - Check AUTH LIST of the group.
 
 **𝙃𝘼𝘽𝙄𝘽𝙄 Database Saved Playlists:**
-
 - /playlist : Check Your Saved Playlist On Servers.
 - /deleteplaylist : Delete any saved music in your playlist
 - /playplaylist : Start playing Your Saved Playlist on 𝙃𝘼𝘽𝙄𝘽𝙄 Servers.
+The Special Credit 
+Checkout [Repo](https://github.com/TeamYukki/YukkiMusicBot)
+
+@TeamYukki | @TheYukki | @YukkiSupport
 
 """
 @app.on_callback_query(filters.regex("_pcd"))
