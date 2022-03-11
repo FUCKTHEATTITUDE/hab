@@ -141,10 +141,10 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/Official_Devil_Support"
+                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/+31Dkd-VPq0JjNDdl"
             ),
             InlineKeyboardButton(
-                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Official_Devil_Network"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+P7HmqPVwCAVhY2E1"
             ),
         ],
         [
@@ -176,10 +176,10 @@ keyboard = InlineKeyboardMarkup(
 
 basichelp_string = """
 **👥Basic Group Commands**
-✘ Base commands are the basic tools of Devil Angel Bot which help you to manage 
+✘ Base commands are the basic tools of 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 which help you to [manage](https://telegra.ph/file/62331b4c6796f326a05c9.jpg)
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
+Also you can ask anything in [Support channel](https://t.me/+P7HmqPVwCAVhY2E1).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -189,7 +189,7 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
+Also you can ask anything in [Support channel](https://t.me/+P7HmqPVwCAVhY2E1).
 
 Click buttons to get help ?
 """
@@ -200,7 +200,7 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/Official_Devil_Support).
+Also you can ask anything in [𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜](https://telegra.ph/file/9bc6b3f98f332f23e28f5.mp4).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -234,7 +234,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @LUNAXDNBOT here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @HABIBIROBOT here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -347,10 +347,10 @@ keyboar = InlineKeyboardMarkup(
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Official_Devil_Network"
+                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+P7HmqPVwCAVhY2E1"
                         ),
                         InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/Official_Devil_Support"
+                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/+31Dkd-VPq0JjNDdl"
                         ),
                     ],
                     [
@@ -365,7 +365,7 @@ texts = """
 **Welcome to help menu**
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+Also you can ask anything in Support Group[.](https://telegra.ph/file/62331b4c6796f326a05c9.jpg)
 """
 
 @app.on_callback_query(filters.regex("expand_"))
@@ -413,8 +413,8 @@ async def help_parser(name, keyboard=None):
 ✪ **Welcome To Help Menu** ✪
 
 I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button[🎀](https://telegra.ph/file/22f288349619a548cf9c6.jpg).
-Also you can ask anything in\n Support Group: @Official_Devil_Support.
+You can choose an option below, by clicking a button[🎀](https://telegra.ph/file/32194e4300f75c4b34a35.jpg).
+Also you can ask anything in\n 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜:
 """.format(
             first_name=name,
             bot_name=BOT_NAME,
@@ -453,7 +453,7 @@ async def help_button(client, query):
 
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+Also you can ask anything in 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜.
  """
     if mod_match:
         module = (mod_match.group(1)).replace(" ", "_")
@@ -664,7 +664,7 @@ UTTON_10 = InlineKeyboardMarkup(
 
 TEXT_PART_1 = """
 Here is the help for the **Formatting** 
-𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 supports a large number of formatting options 
+𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 supports a large number of formatting options 
 to make your messages more expressive. Take a look 
 by clicking the buttons below!
 """
@@ -675,7 +675,7 @@ BTTON_1 = InlineKeyboardMarkup(
         InlineKeyboardButton('Formatting ', callback_data='for_commands')
         ],
         [
-        InlineKeyboardButton('Bug Report', url="https://t.me/Official_Devil_Support")
+        InlineKeyboardButton('Bug Report', url="https://t.me/+31Dkd-VPq0JjNDdl")
         ],
         [InlineKeyboardButton('🔙 Back', callback_data='bot_commands')
         ]]
@@ -818,17 +818,17 @@ async def commands_callbacc(_, CallbackQuery):
     modules_count = len(ALL_MODULES)
 
     TEXT_PART = f"""
-@LUNAXDNBOT ** is one of the fastest and most feature filled group manager**.   
+@HABIBIROBOT ** is one of the fastest and most feature filled group manager**.   
  
  - **Latest Update Time** : `2022 {dater}:{timer}`
  - **Modules Loaded **:  `{modules_count}`
  - **Globally banned users.** :  `{gbans}`
-@LUNAXDNBOT **Mongo database stats**
+@HABIBIROBOT **Mongo database stats**
  - ** Users ** : `{served_users}`
  - ** chats.** : `{served_chats}`
 
  
- **Why Devil**:
+ **Why 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜**:
  
 - **Simple**: `Easy usage and compaitble with many bot commands.`
 - **Featured**: `Many features which other group management bots don't have.`
@@ -843,8 +843,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PART_1 = """
-**Welcome to the 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Configuration**
-The first thing to do is to add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Bot ✨ to your group! 
+**Welcome to the 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 Configuration**
+The first thing to do is to add 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -857,7 +857,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @LUNAXDNBOT as Admin
+▫️ Add @HABIBIROBOT as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -866,14 +866,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @Official_Devil_Support.
+once again check and add me to your group on menu
 We would love to help you.
 """
 
 
 BUTTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 to Chat ! 🎉', url='http://t.me/LUNAXDNBOT?startgroup=new')
+        InlineKeyboardButton('Add 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 to Chat ! 🎉', url='https://t.me/HABIBIROBOT?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_1")
         ]]
@@ -914,13 +914,13 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@LUNAXDNBOT is one of the fastest and most feature filled group manager.
+@HABIBIROBOT is one of the fastest and most feature filled group manager.
 
-𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 ✨ is developed and actively maintained by @alpha_romeo_06!
+𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜 ✨ is developed and actively maintained by @HABIBIROBOT
 
-Devil has been online since 2021/8/10 and have many [groups and users.](https://t.me/Official_Devil_Network)
+𝗛𝗔𝗕𝗜𝗕𝗜 has been online since 2021/8/10 and have many [groups and users.](https://t.me/+31Dkd-VPq0JjNDdl)
 
-**Why Devil:**
+**Why 𝙃𝘼𝘽𝙄𝘽𝙄:**
 - **Simple**: Easy usage and compaitble with many bot commands.
 - **Featured**: Many features which other group management bots don't have.
 - **Fast**: Pyrogram base bot and use mongo as database.
@@ -960,8 +960,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PAT_1 = """
-**Welcome to the 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 Configuration**
-The first thing to do is to add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 ✨ to your group! 
+**Welcome to the 𝙃𝘼𝘽𝙄𝘽𝙄Configuration**
+The first thing to do is to add 𝙃𝘼𝘽𝙄𝘽𝙄✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -974,7 +974,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @LUNAXDNBOT as Admin
+▫️ Add @HABIBIROBOT as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -983,14 +983,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @Official_Devil_Support.
+so don't hesitate to come in @HABIBIROBOT.
 We would love to help you.
 """
 
 
 BUTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add 𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉 to Chat ! 🎉', url='http://t.me/LUNAXDNBOT?startgroup=new')
+        InlineKeyboardButton('Add 𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜to Chat ! 🎉', url='http://t.me/HABIBIROBOT?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_100")
         ]]
