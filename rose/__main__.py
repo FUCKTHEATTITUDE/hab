@@ -157,7 +157,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ! ɪ'ᴍ [𝙇𝙐𝙉𝘼  ✘ 𝘿𝙉](https://telegra.ph/file/6630169ceca2b9811bb81.jpg)
+ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ! ɪ'ᴍ [𝙃𝘼𝘽𝙄𝘽𝙄](https://telegra.ph/file/9bc6b3f98f332f23e28f5.mp4)
 ᴀɴ  ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ ʜᴇʟᴘ 
 ʏᴏᴜ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘs & sᴜɪᴛ ꜰᴏʀ ᴀʟʟ ʏᴏᴜʀ ɴᴇᴇᴅs,ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💕.
 """
