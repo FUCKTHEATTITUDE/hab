@@ -71,7 +71,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 f"Click A Button To Get Started"
             ),
-            thumb_url="https://telegra.ph/file/22f288349619a548cf9c6.jpg",
+            thumb_url="https://telegra.ph/file/62331b4c6796f326a05c9.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -91,7 +91,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[𝙇𝙐𝙉𝘼 ✘ 𝘿𝙉](https://t.me/Official_Devil_Support):**
+**[𝗛𝗔𝗕𝗜𝗕𝗜 𝗛𝗔𝗕𝗜𝗕𝗜](https://t.me/+P7HmqPVwCAVhY2E1):**
 **System Stats:**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
@@ -103,13 +103,13 @@ async def alive_function(answers):
  DB 1 [Main]: `Running`
  DB 2 [Main]: `Running`
  
-[->> Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/Official_Devil_Network/16) 
+[->> Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/+P7HmqPVwCAVhY2E1) 
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/22f288349619a548cf9c6.jpg",
+            thumb_url="https://telegra.ph/file/62331b4c6796f326a05c9.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
