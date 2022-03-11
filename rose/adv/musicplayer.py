@@ -27,7 +27,7 @@ supun = """
 
 ✘ **Authorised Users List**
 
-Devil Angel has a additional feature for non-admin users who want to use admin commands.
+𝙃𝘼𝘽𝙄𝘽𝙄 has a additional feature for non-admin users who want to use admin commands.
 Auth users can skip, pause, stop, resume Voice Chats even without Admin Rights.
 
 
@@ -68,7 +68,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 supunma = """
 - /lyrics `[Music Name]` : Searches Lyrics for the particular Music on web.
-- /sudolist : Check Sudo Users of Rose Music Bot
+- /sudolist : Check Sudo Users of 𝙃𝘼𝘽𝙄𝘽𝙄 Music Bot
 - /song or /video  `[Track Name]` or `[YT Link]` : Download any track from youtube in mp3 or mp4 formats via 𝙇𝙐𝙉𝘼 ✘ 𝘿𝙉.
 - /queue: Check Queue List of Music.
 """
@@ -85,23 +85,23 @@ async def commands_callbacc(_, CallbackQuery):
 
 supunmas = """
 **Note:**
-𝙇𝙐𝙉𝘼 ✘ 𝘿𝙉 Music Bot works on a single merged 
+𝙃𝘼𝘽𝙄𝘽𝙄 Music Bot works on a single merged 
 commands for Music and Video
 
 **Youtube,Telegram Files & query**:
 
-- /play `[Music Name](Devil will search on Youtube)
+- /play `[Music Name](𝙃𝘼𝘽𝙄𝘽𝙄 will search on Youtube)
 - /play `[Youtube Track link or Playlist]`
 - /play `[Video, Live, M3U8 Links]`
 - /play `[Reply to a Audio or Video File]` : Stream Video or Music on Voice Chat by selecting inline Buttons you get
 
 📖 **If you like you can use /vplay commands as this method.**
 
-**Rose Database Saved Playlists:**
+**𝙃𝘼𝘽𝙄𝘽𝙄 Database Saved Playlists:**
 
 - /playlist : Check Your Saved Playlist On Servers.
 - /deleteplaylist : Delete any saved music in your playlist
-- /playplaylist : Start playing Your Saved Playlist on Rose Servers.
+- /playplaylist : Start playing Your Saved Playlist on 𝙃𝘼𝘽𝙄𝘽𝙄 Servers.
 
 """
 @app.on_callback_query(filters.regex("_pcd"))
@@ -125,12 +125,10 @@ We was added Lag free Music 🎶
 
 
 **Credits** - 
-
-˚₊𝗔𝗟𝗔𝗡 𝗪𝗔𝗟𝗞𝗘𝗥
-- @alpha_romeo_06
+@TeamYukki | @TheYukki | @YukkiSupport
 
 👨‍💻 - Please Don't Spam in Assistant Pm
-guys automatically assistant id removed from chats after one month later.
+all assitance leave chat automatically after song end .
 """
 @app.on_callback_query(filters.regex("_aci"))
 async def commands_callbacc(_, CallbackQuery):
@@ -181,20 +179,19 @@ asuttons = InlineKeyboardMarkup(
 
 upun = """
 **A Telegram Music Streaming bot with some useful features.**
-
+NOTE:- THIS IS MADE WITH YUKKI [REPO](https://github.com/TeamYukki/YukkiMusicBot)
 **Features**?
 
 - Zero lagtime Audio player.
 - Working Queue and Interactive Queue Checker.
 - Youtube Downloader Bar.
 - Auth Users Function .
+-loop events aviable.
 - Download Audios from Youtube.
-- loop event and channel play added:by devil support
+- loop event and channel play added:by @YukkiSupport
 - thumbnail selected at random
-
-**work is done by** : @alpha_romeo_06
-**thanks to yukki**
-Click on the buttons for more information.| [credits](https://t.me/Official_Devil_Network)
+@TeamYukki | @TheYukki | @YukkiSupport
+Click on the buttons for more information.| [credits](https://t.me/YukkiSupport)
 """
 @app.on_callback_query(filters.regex("_vc"))
 async def commands_callbacc(_, CallbackQuery):
