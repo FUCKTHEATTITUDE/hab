@@ -16,7 +16,7 @@ logo = """
 - 5000+ Fonts Available .
 - 10000+ Background Images.
 - Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/180af383803c836e9fefc.jpg)
 - Group / Channel & Inbox Supported.
 
 Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
@@ -107,7 +107,7 @@ async def mylogo(_, query):
         API = "https://api.single-developers.software/write"
         body = {     
      "text":f"""
-Hello ! {text} Rose is one of the fastest and most feature filled group manager.
+Hello ! {text} habibi is one of the fastest and most feature filled group manager.
 
 Why Rose:
 - Simple: Easy usage and compaitble with many bot commands.
@@ -181,7 +181,7 @@ upun = """
 
 **Original work is done by **[@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
 """
-photo = "https://telegra.ph/file/fce9d196e2ba4d6c2de3a.jpg"
+photo = "https://telegra.ph/file/180af383803c836e9fefc.jpg"
 
 @app.on_callback_query(filters.regex("_logo"))
 async def commands_callbacc(_, CallbackQuery):
