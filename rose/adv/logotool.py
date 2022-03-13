@@ -42,7 +42,7 @@ hql = """
 - 5000+ Fonts Available .
 - 10000+ Background Images.
 - Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/180af383803c836e9fefc.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
 
@@ -73,7 +73,7 @@ wall = """
 - 5000+ Fonts Available .
 - 10000+ Background Images.
 - Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/180af383803c836e9fefc.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
 
@@ -173,7 +173,7 @@ upun = """
 - 5000+ Fonts Available .
 - 10000+ Background Images.
 - Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/180af383803c836e9fefc.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
 - Hand Writing [sinhala & English ](https://t.me/SingleDevelopers/643)
